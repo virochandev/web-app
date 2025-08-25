@@ -1,0 +1,285 @@
+[
+  {
+    "id": "shop_smart1",
+    "category": "Shop Smart",
+    "title": "Local Farmers Market Offers 30% Off Organic Produce",
+    "summary": "This weekend's market features fresh seasonal vegetables and fruits with special discounts for early shoppers. Local vendors are also offering free samples of artisanal breads and homemade preserves.",
+    "images": ["/img/lifestyle1.jpg", "/img/sports1.jpg", "/img/sports3.jpg"],
+    "source": "https://example.com/shop_smart1",
+    "date": "2025-08-07",
+    "type": "blog",
+    "font": "Literata"
+  },
+  {
+    "id": "shop_smart11",
+    "category": "Shop Smart",
+    "title": "Local Farmers Market Offers 50% Off Organic Produce",
+    "summary": "This weekend's market features fresh seasonal vegetables and fruits with special discounts for early shoppers. Local vendors are also offering free samples of artisanal breads and homemade preserves.",
+    "images": ["/img/lifestyle1.jpg", "/img/sports1.jpg", "/img/sports3.jpg"],
+    "source": "https://example.com/shop_smart1",
+    "date": "2025-08-07",
+    "type": "blog",
+    "font": "Literata"
+  },
+  {
+    "id": "shop_smart2",
+    "category": "Shop Smart",
+    "title": "Downtown Electronics Store Flash Sale",
+    "summary": "Limited-time offers on smartphones, laptops, and accessories. Extended warranty included on all purchases. Store also offering free tech support for the first month.",
+    "images": ["/img/lifestyle2.jpg", "/img/world3.jpg"],
+    "source": "https://example.com/shop_smart2",
+    "date": "2025-08-05",
+    "type": "blog",
+    "font": "Merriweather"
+  },
+  {
+    "id": "shop_smart4",
+    "category": "Shop Smart",
+    "images": [
+      "/img/badminton/badminton_0.jpg",
+      "/img/badminton/badminton_1.jpg",
+      "/img/badminton/badminton_2.jpg",
+      "/img/badminton/badminton_3.jpg",
+      "/img/badminton/badminton_4.jpg",
+      "/img/badminton/badminton_5.jpg",
+      "/img/badminton/badminton_6.jpg",
+      "/img/badminton/badminton_7.jpg",
+      "/img/badminton/badminton_8.jpg",
+      "/img/badminton/badminton_9.jpg"
+    ],
+    "source": "https://example.com/shop_smart4",
+    "date": "2025-08-03",
+    "type": "magazine"
+  },
+  {
+    "id": "shop_smart3",
+    "category": "Shop Smart",
+    "title": "Local Restaurant Week Specials Announced",
+    "summary": "Over 50 local restaurants participating in this year's restaurant week with prix-fixe menus starting at $25. Reservations recommended as spots fill quickly.",
+    "images": ["/img/lifestyle3.jpg", "/img/tech1.jpg"],
+    "source": "https://example.com/shop_smart3",
+    "date": "2025-08-03",
+    "type": "blog",
+    "font": "Merriweather Sans"
+  },
+  {
+    "id": "wellness_insights1",
+    "category": "Wellness Insights",
+    "title": "New Study Links Mediterranean Diet to Improved Heart Health",
+    "summary": "Research shows that following a Mediterranean diet rich in olive oil, nuts, and fish can reduce cardiovascular disease risk by up to 30%. Doctors recommend incorporating these foods gradually into daily meals.",
+    "images": ["/img/finance1.jpg", "/img/india1.jpg"],
+    "source": "https://example.com/wellness_insights1",
+    "date": "2025-08-07",
+    "type": "blog",
+    "font": "Spectral"
+  },
+  {
+    "id": "wellness_insights4",
+    "category": "Wellness Insights",
+    "images": [
+      "/img/health/health_0.jpg",
+      "/img/health/health_1.jpg",
+      "/img/health/health_2.jpg",
+      "/img/health/health_3.jpg",
+      "/img/health/health_4.jpg",
+      "/img/health/health_5.jpg",
+      "/img/health/health_6.jpg",
+      "/img/health/health_7.jpg",
+      "/img/health/health_8.jpg",
+      "/img/health/health_9.jpg"
+    ],
+    "source": "https://example.com/wellness_insights4",
+    "date": "2025-08-03",
+    "type": "magazine"
+  },
+  {
+    "id": "wellness_insights2",
+    "category": "Wellness Insights",
+    "title": "Sleep Quality Linked to Immune System Strength",
+    "summary": "Recent findings indicate that consistent 7-9 hours of quality sleep significantly boosts immune function. Sleep specialists suggest establishing regular bedtime routines and limiting screen time before sleep.",
+    "images": ["/img/finance2.jpg", "/img/india2.jpg"],
+    "source": "https://example.com/wellness_insights2",
+    "date": "2025-08-05",
+    "type": "blog",
+    "font": "Alegraya"
+  },
+  {
+    "id": "wellness_insights3",
+    "category": "Wellness Insights",
+    "title": "Mental Health Benefits of Regular Exercise Confirmed",
+    "summary": "Studies demonstrate that 30 minutes of moderate exercise daily can reduce symptoms of anxiety and depression by 40%. Mental health professionals recommend starting with walking or gentle yoga.",
+    "images": ["/img/finance3.jpg", "/img/sports2.jpg"],
+    "source": "https://example.com/wellness_insights3",
+    "date": "2025-08-03",
+    "type": "blog",
+    "font": "Alegraya Sans"
+  },
+  {
+    "id": "think_bits4",
+    "category": "Think Bits",
+    "images": [
+      "/img/chatgpt/chatgpt_0.jpg",
+      "/img/chatgpt/chatgpt_1.jpg",
+      "/img/chatgpt/chatgpt_2.jpg",
+      "/img/chatgpt/chatgpt_3.jpg",
+      "/img/chatgpt/chatgpt_4.jpg",
+      "/img/chatgpt/chatgpt_5.jpg",
+      "/img/chatgpt/chatgpt_6.jpg",
+      "/img/chatgpt/chatgpt_7.jpg"
+    ],
+    "source": "https://example.com/think_bits4",
+    "date": "2025-08-03",
+    "type": "magazine"
+  },
+  {
+    "id": "think_bits1",
+    "category": "Think Bits",
+    "title": "AI-Powered Personal Finance Assistant Launches",
+    "summary": "New AI tool analyzes spending patterns and provides personalized savings recommendations. The system learns from user behavior to offer increasingly accurate financial advice over time.",
+    "images": ["/img/ent1.jpg"],
+    "source": "https://example.com/think_bits1",
+    "date": "2025-08-07",
+    "type": "blog",
+    "font": "Arvo"
+  },
+  {
+    "id": "think_bits2",
+    "category": "Think Bits",
+    "title": "Machine Learning Revolutionizes Weather Forecasting",
+    "summary": "AI algorithms now predict weather patterns with 95% accuracy up to 10 days in advance. This technology helps farmers plan harvests and cities prepare for extreme weather events.",
+    "images": ["/img/ent2.jpg"],
+    "source": "https://example.com/think_bits2",
+    "date": "2025-08-05",
+    "type": "blog",
+    "font": "Roboto Slab"
+  },
+  {
+    "id": "think_bits3",
+    "category": "Think Bits",
+    "title": "Artificial Intelligence in Education: Personalized Learning",
+    "summary": "AI tutors adapt to individual student learning styles, providing customized lessons and feedback. Early results show 25% improvement in test scores across various subjects.",
+    "images": ["/img/ent3.jpg"],
+    "source": "https://example.com/think_bits3",
+    "date": "2025-08-03",
+    "type": "blog",
+    "font": "Bookerly"
+  },
+  {
+    "id": "tiny_tales1",
+    "category": "Tiny Tales",
+    "title": "The Brave Little Mouse Who Saved the Forest",
+    "summary": "A heartwarming story about a small mouse who discovers a way to help all the forest animals during a harsh winter. Teaches children about courage, friendship, and problem-solving.",
+    "images": ["/img/business1.jpg"],
+    "source": "https://example.com/tiny_tales1",
+    "date": "2025-08-07",
+    "type": "blog",
+    "font": "Caecilia LT Pro"
+  },
+  {
+    "id": "tiny_tales2",
+    "category": "Tiny Tales",
+    "title": "Adventures of the Colorful Rainbow Fish",
+    "summary": "Follow the journey of a special fish who learns the joy of sharing. This delightful tale introduces young readers to concepts of generosity and community.",
+    "images": ["/img/business2.jpg"],
+    "source": "https://example.com/tiny_tales2",
+    "date": "2025-08-05",
+    "type": "blog",
+    "font": "Source Serif 4"
+  },
+  {
+    "id": "tiny_tales3",
+    "category": "Tiny Tales",
+    "title": "The Magical Garden Where Dreams Grow",
+    "summary": "Children discover a secret garden where their dreams take physical form. This enchanting story encourages imagination and creativity in young minds.",
+    "images": ["/img/business3.jpg"],
+    "source": "https://example.com/tiny_tales3",
+    "date": "2025-08-03",
+    "type": "blog",
+    "font": "Newsreader"
+  },
+  {
+    "id": "tiny_tales4",
+    "category": "Tiny Tales",
+    "images": [
+      "/img/stray_dogs/stray_dogs_0.jpg",
+      "/img/stray_dogs/stray_dogs_1.jpg",
+      "/img/stray_dogs/stray_dogs_2.jpg",
+      "/img/stray_dogs/stray_dogs_3.jpg",
+      "/img/stray_dogs/stray_dogs_4.jpg",
+      "/img/stray_dogs/stray_dogs_5.jpg",
+      "/img/stray_dogs/stray_dogs_6.jpg",
+      "/img/stray_dogs/stray_dogs_7.jpg",
+      "/img/stray_dogs/stray_dogs_8.jpg",
+      "/img/stray_dogs/stray_dogs_9.jpg",
+      "/img/stray_dogs/stray_dogs_10.jpg",
+      "/img/stray_dogs/stray_dogs_11.jpg"
+    ],
+    "source": "https://example.com/tiny_tales4",
+    "date": "2025-08-03",
+    "type": "magazine"
+  },
+  {
+    "id": "city_sights1",
+    "category": "City Sights",
+    "title": "Hidden Gems: Secret Cafes in Downtown",
+    "summary": "Discover charming local cafes tucked away in historic buildings. These family-owned spots offer unique atmospheres and authentic local cuisine that tourists often miss.",
+    "images": ["/img/tech1.jpg"],
+    "source": "https://example.com/city_sights1",
+    "date": "2025-08-07",
+    "type": "blog",
+    "font": "Crimson Pro"
+  },
+  {
+    "id": "city_sights4",
+    "category": "City Sights",
+    "images": [
+      "/img/restaurants/restaurants_0.jpg",
+      "/img/restaurants/restaurants_1.jpg",
+      "/img/restaurants/restaurants_2.jpg",
+      "/img/restaurants/restaurants_3.jpg",
+      "/img/restaurants/restaurants_4.jpg",
+      "/img/restaurants/restaurants_5.jpg",
+      "/img/restaurants/restaurants_6.jpg",
+      "/img/restaurants/restaurants_7.jpg",
+      "/img/restaurants/restaurants_8.jpg",
+      "/img/restaurants/restaurants_9.jpg",
+      "/img/restaurants/restaurants_10.jpg"
+    ],
+    "source": "https://example.com/city_sights4",
+    "date": "2025-08-03",
+    "type": "magazine"
+  },
+  {
+    "id": "city_sights2",
+    "category": "City Sights",
+    "title": "Urban Art Trail: Street Murals Worth Exploring",
+    "summary": "A self-guided walking tour of the city's most impressive street art. Local artists have transformed blank walls into vibrant canvases telling the city's cultural story.",
+    "images": ["/img/tech2.jpg"],
+    "source": "https://example.com/city_sights2",
+    "date": "2025-08-05",
+    "type": "blog",
+    "font": "EB Garamond"
+  },
+  {
+    "id": "city_sights3",
+    "category": "City Sights",
+    "title": "Historic Architecture Walking Tour",
+    "summary": "Explore the city's architectural heritage through its preserved buildings and landmarks. Learn about the stories behind these structures and their significance to local history.",
+    "images": ["/img/world1.jpg"],
+    "source": "https://example.com/city_sights3",
+    "date": "2025-08-03",
+    "type": "blog",
+    "font": "Lora"
+  },
+  {
+    "id": "tiny_tales5",
+    "category": "Tiny Tales",
+    "title": "The Magical Garden Where Dreams Grow",
+    "summary": "Children discover a secret garden where their dreams take physical form. This enchanting story encourages imagination and creativity in young minds.",
+    "images": ["/img/business3.jpg"],
+    "source": "https://example.com/tiny_tales5",
+    "date": "2025-08-03",
+    "type": "blog",
+    "font": "Libre Baskerville"
+  }
+]

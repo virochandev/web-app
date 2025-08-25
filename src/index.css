@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Roboto+Slab:wght@100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import "tailwindcss";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light;
+  color: #213547;
+  background-color: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* MeshedDisplay Font Family - Regular Weights */
+@font-face {
+  font-family: "MeshedDisplay";
+  src: url("/fonts/meshed_display/MeshedDisplay-Thin.woff2") format("woff2"),
+    url("/fonts/meshed_display/MeshedDisplay-Thin.woff") format("woff"),
+    url("/fonts/meshed_display/MeshedDisplay-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MeshedDisplay";
+  src: url("/fonts/meshed_display/MeshedDisplay-ExtraLight.woff2")
+      format("woff2"),
+    url("/fonts/meshed_display/MeshedDisplay-ExtraLight.woff") format("woff"),
+    url("/fonts/meshed_display/MeshedDisplay-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MeshedDisplay";
+  src: url("/fonts/meshed_display/MeshedDisplay-Light.woff2") format("woff2"),
+    url("/fonts/meshed_display/MeshedDisplay-Light.woff") format("woff"),
+    url("/fonts/meshed_display/MeshedDisplay-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MeshedDisplay";
+  src: url("/fonts/meshed_display/MeshedDisplay-Regular.woff2") format("woff2"),
+    url("/fonts/meshed_display/MeshedDisplay-Regular.woff") format("woff"),
+    url("/fonts/meshed_display/MeshedDisplay-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MeshedDisplay";
+  src: url("/fonts/meshed_display/MeshedDisplay-Medium.woff2") format("woff2"),
+    url("/fonts/meshed_display/MeshedDisplay-Medium.woff") format("woff"),
+    url("/fonts/meshed_display/MeshedDisplay-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MeshedDisplay";
+  src: url("/fonts/meshed_display/MeshedDisplay-SemiBold.woff2") format("woff2"),
+    url("/fonts/meshed_display/MeshedDisplay-SemiBold.woff") format("woff"),
+    url("/fonts/meshed_display/MeshedDisplay-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MeshedDisplay";
+  src: url("/fonts/meshed_display/MeshedDisplay-Bold.woff2") format("woff2"),
+    url("/fonts/meshed_display/MeshedDisplay-Bold.woff") format("woff"),
+    url("/fonts/meshed_display/MeshedDisplay-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MeshedDisplay";
+  src: url("/fonts/meshed_display/MeshedDisplay-ExtraBold.woff2")
+      format("woff2"),
+    url("/fonts/meshed_display/MeshedDisplay-ExtraBold.woff") format("woff"),
+    url("/fonts/meshed_display/MeshedDisplay-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MeshedDisplay";
+  src: url("/fonts/meshed_display/MeshedDisplay-Black.woff2") format("woff2"),
+    url("/fonts/meshed_display/MeshedDisplay-Black.woff") format("woff"),
+    url("/fonts/meshed_display/MeshedDisplay-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* MeshedDisplay Font Family - Slanted (Italic) Weights */
+@font-face {
+  font-family: "MeshedDisplay";
+  src: url("/fonts/meshed_display/MeshedDisplay-ThinSlanted.woff2")
+      format("woff2"),
+    url("/fonts/meshed_display/MeshedDisplay-ThinSlanted.woff") format("woff"),
+    url("/fonts/meshed_display/MeshedDisplay-ThinSlanted.ttf")
+      format("truetype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MeshedDisplay";
+  src: url("/fonts/meshed_display/MeshedDisplay-ExtLtSlant.woff2")
+      format("woff2"),
+    url("/fonts/meshed_display/MeshedDisplay-ExtLtSlant.woff") format("woff"),
+    url("/fonts/meshed_display/MeshedDisplay-ExtLtSlant.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MeshedDisplay";
+  src: url("/fonts/meshed_display/MeshedDisplay-LightSlanted.woff2")
+      format("woff2"),
+    url("/fonts/meshed_display/MeshedDisplay-LightSlanted.woff") format("woff"),
+    url("/fonts/meshed_display/MeshedDisplay-LightSlanted.ttf")
+      format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MeshedDisplay";
+  src: url("/fonts/meshed_display/MeshedDisplay-Slanted.woff2") format("woff2"),
+    url("/fonts/meshed_display/MeshedDisplay-Slanted.woff") format("woff"),
+    url("/fonts/meshed_display/MeshedDisplay-Slanted.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MeshedDisplay";
+  src: url("/fonts/meshed_display/MeshedDisplay-MediumSlanted.woff2")
+      format("woff2"),
+    url("/fonts/meshed_display/MeshedDisplay-MediumSlanted.woff") format("woff"),
+    url("/fonts/meshed_display/MeshedDisplay-MediumSlanted.ttf")
+      format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MeshedDisplay";
+  src: url("/fonts/meshed_display/MeshedDisplay-SemiBoldSlanted.woff2")
+      format("woff2"),
+    url("/fonts/meshed_display/MeshedDisplay-SemiBoldSlanted.woff")
+      format("woff"),
+    url("/fonts/meshed_display/MeshedDisplay-SemiBoldSlanted.ttf")
+      format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MeshedDisplay";
+  src: url("/fonts/meshed_display/MeshedDisplay-BoldSlanted.woff2")
+      format("woff2"),
+    url("/fonts/meshed_display/MeshedDisplay-BoldSlanted.woff") format("woff"),
+    url("/fonts/meshed_display/MeshedDisplay-BoldSlanted.ttf")
+      format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MeshedDisplay";
+  src: url("/fonts/meshed_display/MeshedDisplay-ExtBdSlant.woff2")
+      format("woff2"),
+    url("/fonts/meshed_display/MeshedDisplay-ExtBdSlant.woff") format("woff"),
+    url("/fonts/meshed_display/MeshedDisplay-ExtBdSlant.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MeshedDisplay";
+  src: url("/fonts/meshed_display/MeshedDisplay-BlackSlanted.woff2")
+      format("woff2"),
+    url("/fonts/meshed_display/MeshedDisplay-BlackSlanted.woff") format("woff"),
+    url("/fonts/meshed_display/MeshedDisplay-BlackSlanted.ttf")
+      format("truetype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bookerly";
+  src: url("/fonts/bookerly-webfont/Bookerly Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Bookerly";
+  src: url("/fonts/bookerly-webfont/Bookerly Light Italic.woff") format("woff"),
+       url("/fonts/bookerly-webfont/Bookerly LCD Light Italic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bookerly";
+  src: url("/fonts/bookerly-webfont/Bookerly.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Bookerly";
+  src: url("/fonts/bookerly-webfont/Bookerly Italic.woff") format("woff"),
+       url("/fonts/bookerly-webfont/Bookerly LCD Italic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bookerly";
+  src: url("/fonts/bookerly-webfont/Bookerly Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Bookerly";
+  src: url("/fonts/bookerly-webfont/Bookerly Bold Italic.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bookerly Display";
+  src: url("/fonts/bookerly-webfont/Bookerly Display.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Bookerly Display";
+  src: url("/fonts/bookerly-webfont/Bookerly Display Italic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Bookerly Display";
+  src: url("/fonts/bookerly-webfont/Bookerly Display Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Bookerly Display";
+  src: url("/fonts/bookerly-webfont/Bookerly Display Bold Italic.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Caecilia LT Pro";
+  src: url("/fonts/caecilia-lt-pro/CaeciliaLTPro45Light.TTF") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Caecilia LT Pro";
+  src: url("/fonts/caecilia-lt-pro/CaeciliaLTPro46LightIt.TTF") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Caecilia LT Pro";
+  src: url("/fonts/caecilia-lt-pro/CaeciliaLTPro55Roman.TTF") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Caecilia LT Pro";
+  src: url("/fonts/caecilia-lt-pro/CaeciliaLTPro56RomanIt.TTF") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Caecilia LT Pro";
+  src: url("/fonts/caecilia-lt-pro/CaeciliaLTPro75Bold.TTF") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Caecilia LT Pro";
+  src: url("/fonts/caecilia-lt-pro/CaeciliaLTPro76BoldIt.TTF") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Caecilia LT Pro";
+  src: url("/fonts/caecilia-lt-pro/CaeciliaLTPro85Heavy.TTF") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Caecilia LT Pro";
+  src: url("/fonts/caecilia-lt-pro/CaeciliaLTPro86HeavyIt.TTF") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  /* place-items: center; */
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Swiper Custom Styles */
+.categories-swiper {
+  padding-bottom: 50px;
+}
+
+.categories-swiper .swiper-button-next,
+.categories-swiper .swiper-button-prev {
+  color: #3b82f6;
+  background: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+}
+
+.categories-swiper .swiper-button-next:hover,
+.categories-swiper .swiper-button-prev:hover {
+  background: #3b82f6;
+  color: white;
+  transform: scale(1.1);
+}
+
+.categories-swiper .swiper-button-next::after,
+.categories-swiper .swiper-button-prev::after {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.categories-swiper .swiper-pagination-bullet {
+  background: #d1d5db;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+
+.categories-swiper .swiper-pagination-bullet-active {
+  background: #3b82f6;
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 640px) {
+  .categories-swiper .swiper-button-next,
+  .categories-swiper .swiper-button-prev {
+    width: 35px;
+    height: 35px;
+  }
+
+  .categories-swiper .swiper-button-next::after,
+  .categories-swiper .swiper-button-prev::after {
+    font-size: 14px;
+  }
+}
